@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d83d3ae2-09df-4ed1-9093-f3df9e6e3556" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="189" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PLXZJXe2TabYljH0rQejIqAlNr" />
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565905183111" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EjercicioPiedraPapelTijera">
+    <configuration name="CifradoCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercitacionAvanzados.CifradoCesar" />
+      <module name="M02C01_Java_Sin_Objetos_Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjercitacionAvanzados.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio6 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercitacion3.Ejercicio6" />
+      <module name="M02C01_Java_Sin_Objetos_Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercitacion3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercitacion2.Ejercicio6" />
+      <module name="M02C01_Java_Sin_Objetos_Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercitacion2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio8y9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercitacion3.Ejercicio8y9" />
+      <module name="M02C01_Java_Sin_Objetos_Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ejercitacion3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjercicioPiedraPapelTijera" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercitacionAvanzados.EjercicioPiedraPapelTijera" />
+      <module name="M02C01_Java_Sin_Objetos_Base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjercitacionAvanzados.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjercicioPiedraPapelTijera" />
+        <item itemvalue="Application.CifradoCesar" />
+        <item itemvalue="Application.Ejercicio8y9" />
+        <item itemvalue="Application.Ejercicio6 (1)" />
+        <item itemvalue="Application.Ejercicio6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d83d3ae2-09df-4ed1-9093-f3df9e6e3556" name="Default Changelist" comment="" />
+      <created>1565390434330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565390434330</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/M02C01_Java_Sin_Objetos_Base$CifradoCesar.ic" NAME="CifradoCesar Coverage Results" MODIFIED="1565830491104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>EjercitacionAvanzados.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/M02C01_Java_Sin_Objetos_Base$Ejercicio8y9.ic" NAME="Ejercicio8y9 Coverage Results" MODIFIED="1565824101305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Ejercitacion3.*</FILTER>
+    </SUITE>
+  </component>
+</project>
