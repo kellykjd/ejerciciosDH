@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6961dc05-ddb9-4452-8379-1ebffb0aa2c0" name="Default Changelist" comment="" />
+    <list default="true" id="6961dc05-ddb9-4452-8379-1ebffb0aa2c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jugadoreYEntrenamiento/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paseoPerroBelgrano/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/CifradoCesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/CifradoCesar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/EjercicioCazadorDragones.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/EjercicioCazadorDragones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/src/EjercitacionAvanzados/CifradoCesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/src/EjercitacionAvanzados/CifradoCesar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/src/EjercitacionAvanzados/EjercicioCazadorDragones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/src/EjercitacionAvanzados/EjercicioCazadorDragones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bancoSantanderArroyo/com/company/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bancoSantanderArroyo/com/company/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bancoSantanderArroyo/com/company/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bancoSantanderArroyo/com/company/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bancoSantanderArroyo/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bancoSantanderArroyo/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jugadoreYEntrenamiento/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jugadoreYEntrenamiento/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jugadoreYEntrenamiento/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jugadoreYEntrenamiento/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jugadoreYEntrenamiento/src/com/company/JugadorDeFutbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jugadoreYEntrenamiento/src/com/company/JugadorDeFutbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jugadoreYEntrenamiento/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jugadoreYEntrenamiento/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jugadoreYEntrenamiento/src/com/company/SesionDeEntrenamiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jugadoreYEntrenamiento/src/com/company/SesionDeEntrenamiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paseoPerroBelgrano/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../paseoPerroBelgrano/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paseoPerroBelgrano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../paseoPerroBelgrano/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paseoPerroBelgrano/out/production/paseoPerroBelgrano/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../paseoPerroBelgrano/out/production/paseoPerroBelgrano/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paseoPerroBelgrano/out/production/paseoPerroBelgrano/com/company/Perro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../paseoPerroBelgrano/out/production/paseoPerroBelgrano/com/company/Perro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paseoPerroBelgrano/out/production/paseoPerroBelgrano/com/company/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../paseoPerroBelgrano/out/production/paseoPerroBelgrano/com/company/Persona.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +39,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1PVpjAWzEyZi0zwTD6DaZTdBNtE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565917213047" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jugadoreYEntrenamiento" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,5 +90,18 @@
       <updated>1565911618740</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

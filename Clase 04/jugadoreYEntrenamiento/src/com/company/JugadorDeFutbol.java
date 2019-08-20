@@ -2,15 +2,15 @@ package com.company;
 
 public class JugadorDeFutbol {
 
-//ATRIBUTOS
+    //ATRIBUTOS
     private String nombre;
     private Integer energia;
     private Integer felicidad;
     private Integer goles;
-    private SesionDeEntrenamiento experiencia;
+    private Integer experiencia;
 
-//CONSTRUCTOR
-    public JugadorDeFutbol(String nombre, Integer energia, Integer felicidad, Integer goles, SesionDeEntrenamiento experiencia) {
+    //CONSTRUCTOR
+    public JugadorDeFutbol(String nombre, Integer energia, Integer felicidad, Integer goles, Integer experiencia) {
         this.nombre = nombre;
         this.energia = energia;
         this.felicidad = felicidad;
@@ -20,26 +20,35 @@ public class JugadorDeFutbol {
 
 //METODOS
 
-    public void hacerGol(){
-        if (energia>=5) {
-            energia = energia - 5;
-            felicidad = felicidad + 10;
-            goles = goles + 1;
-            System.out.println("GOOOOL!");
-        }else{
-            System.out.println("El jugador no puede jugar más");
-}
+    public void hacerGol() {
+        energia = energia - 5;
+        felicidad = felicidad + 10;
+        goles = goles + 1;
+        System.out.println("GOOOOL!");
+     }
+
+    public void correr() {
+        energia = energia - 10;
+        System.out.println("No me dan mas las piernas");
     }
 
-    public void correr(){
-        if (energia>=10){
-            energia = energia - 10;
-            System.out.println("No me dan mas las piernas");
-        }else{
-            System.out.println("El jugador no puede correr más");
-        }
+    public Integer getExperiencia() {
+        return experiencia;
     }
 
+    public Integer getEnergia() {
+        return energia;
+    }
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public Integer getGoles() {
+        return goles;
+    }
+
+    public Integer getFelicidad() {
+        return felicidad;
+    }
 }

@@ -13,19 +13,16 @@ Integer danioTotalAlDragon=0;
 
 
 
-for (int i=0; i<=4; i++){
+
         if (decidirSiElJuegoContinua()) {
-            if (decidirSiGolpeaJugador()) {
                 System.out.println("El jugador golpea al dragón.");
                 danioTotalAlDragon=danioTotalAlDragon+decidirCuantoGolpeaJugador();
-            } else {
-                System.out.println("El dragón golpeó al jugador!!");
-            }
         }else{
+
             System.out.println("Juego finalizado. El ganador fue el + . El daño hecho al dragón fue de: + unidades." );
         }
     }
-    }
+
 //Variable para decidir si golpea el jugador o golpea el dragón
     private static Boolean decidirSiGolpeaJugador() {
         Random rand = new Random();
@@ -40,7 +37,8 @@ for (int i=0; i<=4; i++){
     }
     //Variable para controlar si continúa el juego o no
     private static Boolean decidirSiElJuegoContinua() {
-        return danioTotalAlDragon() <= 4 || decidirSiGolpeaJugador();
+      //  return danioTotalAlDragon < 4 && decidirSiGolpeaJugador();
+        return true;
     }
 
     public static void main(String[] args){

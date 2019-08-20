@@ -16,7 +16,7 @@ public class CifradoCesar {
         for (int i = 0; i < texto.length()-1; i++){
             if(texto.charAt(i) == ' '){
                 nuevoTexto= nuevoTexto+texto.charAt(i);
-            }else{ nuevoTexto= nuevoTexto+texto.charAt(i+3); }
+            }else{ }
 
             }
         return nuevoTexto;

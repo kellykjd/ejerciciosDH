@@ -4,7 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d83d3ae2-09df-4ed1-9093-f3df9e6e3556" name="Default Changelist" comment="" />
+    <list default="true" id="d83d3ae2-09df-4ed1-9093-f3df9e6e3556" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/CifradoCesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/CifradoCesar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/EjercicioCazadorDragones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/EjercicioCazadorDragones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjercitacionAvanzados/CifradoCesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjercitacionAvanzados/CifradoCesar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EjercitacionAvanzados/EjercicioCazadorDragones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjercitacionAvanzados/EjercicioCazadorDragones.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +28,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1PLXZJXe2TabYljH0rQejIqAlNr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565905183111" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EjercicioPiedraPapelTijera">
+  <component name="RunManager" selected="Application.CifradoCesar">
     <configuration name="CifradoCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjercitacionAvanzados.CifradoCesar" />
       <module name="M02C01_Java_Sin_Objetos_Base" />
@@ -108,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjercicioPiedraPapelTijera" />
         <item itemvalue="Application.CifradoCesar" />
+        <item itemvalue="Application.EjercicioPiedraPapelTijera" />
         <item itemvalue="Application.Ejercicio8y9" />
         <item itemvalue="Application.Ejercicio6 (1)" />
         <item itemvalue="Application.Ejercicio6" />
@@ -128,6 +141,19 @@
       <updated>1565390434330</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/M02C01_Java_Sin_Objetos_Base$CifradoCesar.ic" NAME="CifradoCesar Coverage Results" MODIFIED="1565830491104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
