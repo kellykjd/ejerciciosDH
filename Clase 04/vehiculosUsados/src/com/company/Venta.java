@@ -10,7 +10,7 @@ public class Venta {
 
     //CONSTRUCTOR
 
-    public Venta(Double montoVenta, Vehiculo vehiculo, Cliente cliente) {
+    public Venta(Cliente cliente,  Vehiculo vehiculo, Double montoVenta) {
        this.montoVenta = montoVenta;
         this.vehiculo = vehiculo;
         this.cliente = cliente;

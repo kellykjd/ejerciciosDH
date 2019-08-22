@@ -16,4 +16,15 @@ public class Cliente {
 
     //METODOS
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getDatoDeContacto() {
+        return datoDeContacto;
+    }
 }

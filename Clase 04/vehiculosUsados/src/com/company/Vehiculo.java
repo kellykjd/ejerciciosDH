@@ -19,4 +19,27 @@ public class Vehiculo {
         this.color = color;
         this.km = km;
     }
+
+    //METODOS
+
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public Integer getAnioFabricacion() {
+        return anioFabricacion;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public Integer getKm() {
+        return km;
+    }
 }
