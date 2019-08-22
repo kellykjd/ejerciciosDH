@@ -6,16 +6,17 @@ public class Main {
 	// write your code here
 
         //Cliente otroCliente = new Cliente();
-        Cliente unCliente = new Cliente("Pat","Ugarte",12344,3356432,"23-23234232-2");
-        Cuenta miCuenta = new Cuenta(unCliente);
+        ClienteIndividual unCliente = new ClienteIndividual("Pat","Ugarte",12344,3356432);
+        CajaDeAhorros unaCuenta = new CajaDeAhorros(unCliente, 5);
 
-        System.out.println(miCuenta.getSaldo());
+        System.out.println(unaCuenta.getSaldo());
 
-        miCuenta.depositar(2000.0);
+        unaCuenta.depositar(2000.0);
 
-        System.out.println(miCuenta.getSaldo());
+        System.out.println(unaCuenta.getSaldo());
 
-        miCuenta.extraer(2500.0);
-        miCuenta.extraer(1000.0);
+        unaCuenta.extraer(2500.0);
+        unaCuenta.extraer(1000.0);
+        unaCuenta.cobrarInteres();
     }
 }

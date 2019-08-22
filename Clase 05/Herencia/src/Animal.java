@@ -12,12 +12,6 @@ public class Animal {
         this.apodos = apodos;
     }
 
-    public Animal(String raza, ArrayList<String> apodos) {
-        this.raza = raza;
-        this.apodos = apodos;
-        this.edad = 0;
-    }
-
     public void hacerRuido(){
         System.out.println("Soy un animal");
     }

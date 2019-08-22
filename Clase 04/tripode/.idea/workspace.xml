@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07f8f873-34a7-4413-a8be-1993b87cafa8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vehiculosUsados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vehiculosUsados/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Concesionaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Concesionaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vehiculosUsados/src/com/company/Venta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/src/com/company/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/src/com/company/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/src/Animal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566344540065" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Clase 05/Herencia" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -87,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

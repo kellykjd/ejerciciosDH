@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d26f0f53-4962-46c6-ac5f-6cd54145a73c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Clase 04/tripode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/tripode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Concesionaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Concesionaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/vehiculosUsados/src/com/company/Venta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Herencia/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Herencia/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/src/Animal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,37 +26,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1Pl1CdsvYr9dlVuLMC89rq7c5zZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BancoSantanderArroyoBelgrano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BancoSantanderArroyoBelgrano" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BancoSantanderArroyoBelgrano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BancoSantanderArroyoBelgrano" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BancoSantanderArroyoBelgrano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BancoSantanderArroyoBelgrano" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -113,7 +81,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
