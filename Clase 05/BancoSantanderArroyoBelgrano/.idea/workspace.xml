@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d26f0f53-4962-46c6-ac5f-6cd54145a73c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Clase 04/tripode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/tripode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/CuentaCorriente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/CuentaCorriente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CajaDeAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CajaDeAhorros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CuentaCorriente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herencia/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Herencia/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/src/Animal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565915166113" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

@@ -2,23 +2,22 @@ package com.company;
 
 public class CuentaCorriente extends Cuenta {
     //ATRIBUTOS
-private Double saldo;
 private Double montoAutorizado;
 
 
     //CONSTRUCTOR
-    public CuentaCorriente(Cliente titular, Double saldo, Double montoAutorizado) {
+    public CuentaCorriente(Cliente titular, Double montoAutorizado) {
         super(titular);
-        this.saldo = getSaldo();
-        this.montoAutorizado = 2000.0;
+        this.montoAutorizado = montoAutorizado;
     }
 
     //METODOS
-    public void extraerEfectivo(Double monto){
-        if (monto >= getSaldo()-montoAutorizado) {
-            extraer(monto);
+    public void extraerEfectivo(Double platita){
+        if (getSaldo()<=platita) {
+            depositar(montoAutorizado);
+            extraer(platita);
         }else{
-            System.out.println("Monto Insuficiente!!");
+            extraer(platita);
         }
     }
 

@@ -3,14 +3,12 @@ package com.company;
 public class CajaDeAhorros extends Cuenta {
     //ATRIBUTOS
     private Integer tasaDeInteres;
-    private Double saldo;
 
     //CONSTRUCTOR
 
     public CajaDeAhorros(Cliente titular, Integer tasaDeInteres) {
         super(titular);
         this.tasaDeInteres = tasaDeInteres;
-        this.saldo = getSaldo();
     }
 
     //METODOS
