@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da6ffe4b-5c46-4a00-a130-2b491a9f0813" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="da6ffe4b-5c46-4a00-a130-2b491a9f0813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Foto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Foto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Impresora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Impresora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Imprimible.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Imprimible.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/TorreDeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/TorreDeControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Foto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Foto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Impresora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../volar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../volar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../volar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../volar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+  <component name="ProjectId" id="1PsQukSVyITIYBoL3pE9jE7bx1E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-    </panes>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../impresora" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,6 +68,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,44 +87,17 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
