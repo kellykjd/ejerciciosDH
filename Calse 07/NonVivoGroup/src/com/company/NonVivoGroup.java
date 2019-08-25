@@ -22,6 +22,7 @@ public void añadirALaListaDeInvitados(Invitado unInvitado){
 }
 
 
+
 //Defino el método para repartir la torta. Como en esta caso ninguna otra clase accederá a repartir la torta y es un método propio, lo declaro privado
 private void repartirTorta(){
     System.out.println("Repartiremos la torta");

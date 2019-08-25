@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6ffe4b-5c46-4a00-a130-2b491a9f0813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/FuegoArtificial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/FuegoArtificial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/Invitado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/Invitado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/InvitadoDH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/InvitadoDH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/InvitadoStandard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/InvitadoStandard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/NonVivoGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/NonVivoGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/Packs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NonVivoGroup/com/company/Packs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Foto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Foto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Impresora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Impresora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Imprimible.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Imprimible.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/TorreDeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/TorreDeControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Foto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Foto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Impresora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../volar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../volar/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../volar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../volar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NonVivoGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/NonVivoGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Packs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Packs.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

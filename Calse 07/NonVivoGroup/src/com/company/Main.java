@@ -8,6 +8,7 @@ public class Main {
 
     //Creo los invitados Standards
     InvitadoStandard invitadoStd1 = new InvitadoStandard("Carlos",111111);
+    InvitadoStandard invitadoStd4 = new InvitadoStandard("Carlos",111111);
     InvitadoStandard invitadoStd2 = new InvitadoStandard("Juan",222222);
     InvitadoStandard invitadoStd3 = new InvitadoStandard("Ana",222222);
 
@@ -30,12 +31,12 @@ public class Main {
     Packs pack3 = new Packs();
 
     //Añado a los packs fuegos artificiales y/u otros packs
-pack1.añadirPacksExplotables(fuegoArt1);
-pack1.añadirPacksExplotables(fuegoArt1);
-pack1.añadirPacksExplotables(fuegoArt3);
-pack2.añadirPacksExplotables(fuegoArt4);
-pack2.añadirPacksExplotables(fuegoArt5);
-pack3.añadirPacksExplotables(pack1);
+    pack1.añadirPacksExplotables(fuegoArt2);
+    pack1.añadirPacksExplotables(fuegoArt1);
+    pack1.añadirPacksExplotables(fuegoArt3);
+    pack2.añadirPacksExplotables(fuegoArt4);
+    pack2.añadirPacksExplotables(fuegoArt5);
+    pack3.añadirPacksExplotables(pack1);
 
     //Le pido al evento que añada los invitados a la lista de invitados
     eventoLaChiqui.añadirALaListaDeInvitados(invitadoDH1);
@@ -44,6 +45,7 @@ pack3.añadirPacksExplotables(pack1);
     eventoLaChiqui.añadirALaListaDeInvitados(invitadoDH2);
     eventoLaChiqui.añadirALaListaDeInvitados(invitadoStd3);
     eventoLaChiqui.añadirALaListaDeInvitados(invitadoDH3);
+    eventoLaChiqui.añadirALaListaDeInvitados(invitadoStd3);
 
     //añado a la lista de explotables lo que quiero que explote
     eventoLaChiqui.añadirALaListaDeExplotables(pack1);
@@ -54,12 +56,8 @@ pack3.añadirPacksExplotables(pack1);
     eventoLaChiqui.añadirALaListaDeExplotables(fuegoArt3);
     eventoLaChiqui.añadirALaListaDeExplotables(fuegoArt6);
 
+
     //le pido al evento que cuando encienda las velas ejecute los metódos de explotar y comer torta
     eventoLaChiqui.encenderVelas();
-
-
-
-
-
     }
 }
