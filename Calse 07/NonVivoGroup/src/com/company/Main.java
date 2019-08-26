@@ -8,7 +8,6 @@ public class Main {
 
     //Creo los invitados Standards
     InvitadoStandard invitadoStd1 = new InvitadoStandard("Carlos",111111);
-    InvitadoStandard invitadoStd4 = new InvitadoStandard("Carlos",111111);
     InvitadoStandard invitadoStd2 = new InvitadoStandard("Juan",222222);
     InvitadoStandard invitadoStd3 = new InvitadoStandard("Ana",222222);
 
@@ -30,7 +29,7 @@ public class Main {
     Packs pack2 = new Packs();
     Packs pack3 = new Packs();
 
-    //Añado a los packs fuegos artificiales y/u otros packs
+    //Añado a los packs fuegos art6ificiales y/u otros packs
     pack1.añadirPacksExplotables(fuegoArt2);
     pack1.añadirPacksExplotables(fuegoArt1);
     pack1.añadirPacksExplotables(fuegoArt3);

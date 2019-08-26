@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c240ee33-cabd-4413-b744-3265495015cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Foto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Foto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Impresora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Impresora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Imprimible.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Imprimible.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/TorreDeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/TorreDeControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Foto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Foto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Impresora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/volar/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/volar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Pato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Pato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/TorreDeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/TorreDeControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Perro.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566344480665" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,7 +66,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Mariale\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

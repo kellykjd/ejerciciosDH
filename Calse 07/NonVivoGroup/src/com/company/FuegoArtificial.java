@@ -17,8 +17,5 @@ public class FuegoArtificial implements Explotables{
         System.out.println(ruido);
 }
 
-    public String getRuido() {
-        return ruido;
-    }
 }
 

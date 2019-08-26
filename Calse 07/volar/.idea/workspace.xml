@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98230238-c1a0-44b2-93a7-6ef52db49442" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../NonVivoGroup/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NonVivoGroup/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NonVivoGroup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NonVivoGroup/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NonVivoGroup/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Foto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Foto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Impresora.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Impresora.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Imprimible.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Imprimible.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/TorreDeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/out/production/impresora/com/company/TorreDeControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Foto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Foto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Impresora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Impresora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../impresora/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../impresora/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Pato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Pato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TorreDeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TorreDeControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/src/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/src/Perro.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

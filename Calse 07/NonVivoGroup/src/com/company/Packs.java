@@ -8,11 +8,13 @@ public class Packs implements Explotables {
 //Defino el array de los packs que utilizaremos en NonVivoGroup para agregar explotables tipo Packs
     private List<Explotables> listaDePacks = new ArrayList<>();
 
-//CONSTRUCTOR
+    //CONSTRUCTOR
 
     //METODOS
-//Defino el método para agregar un explotable a la listaDePacks
+    //Defino el método para agregar un explotable a la listaDePacks
+
     public void añadirPacksExplotables(Explotables unExplotable) {
+
         listaDePacks.add(unExplotable);
     }
 

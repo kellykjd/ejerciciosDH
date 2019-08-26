@@ -5,13 +5,16 @@ public class InvitadoDH extends Invitado{
 //Hereda los mismos atributos de la clase Invitado
 
 
+
+
 //CONSTRUCTOR
     public InvitadoDH(String nombre, Integer dni){
+
         super(nombre,dni);
     }
 
 //METODOS
-    //Defino cómo quiero que imprima la interfaz
+    //Defino cómo quiero que imprima
     @Override
     public void comer(){
         System.out.println("Viva La Chiqui");
