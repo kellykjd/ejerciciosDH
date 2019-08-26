@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d26f0f53-4962-46c6-ac5f-6cd54145a73c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Clase 04/tripode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 04/tripode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MercadoAbierto/MercadoAbierto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/out/production/EjerciciosVarios/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/out/production/EjerciciosVarios/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/TorreDeControl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 02/M02C01_Java_Sin_Objetos_Base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/CuentaCorriente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/CuentaCorriente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BancoSantanderArroyoBelgrano/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CajaDeAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CajaDeAhorros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CuentaCorriente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

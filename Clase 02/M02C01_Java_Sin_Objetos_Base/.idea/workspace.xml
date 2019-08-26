@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d83d3ae2-09df-4ed1-9093-f3df9e6e3556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/out/production/EjerciciosVarios/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/out/production/EjerciciosVarios/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/CifradoCesar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/CifradoCesar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/EjercicioCazadorDragones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/M02C01_Java_Sin_Objetos_Base/EjercitacionAvanzados/EjercicioCazadorDragones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjercitacionAvanzados/CifradoCesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjercitacionAvanzados/CifradoCesar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EjercitacionAvanzados/EjercicioCazadorDragones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjercitacionAvanzados/EjercicioCazadorDragones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/BancoSantanderArroyoBelgrano/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565905183111" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -156,11 +155,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/M02C01_Java_Sin_Objetos_Base$CifradoCesar.ic" NAME="CifradoCesar Coverage Results" MODIFIED="1565830491104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>EjercitacionAvanzados.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/M02C01_Java_Sin_Objetos_Base$Ejercicio8y9.ic" NAME="Ejercicio8y9 Coverage Results" MODIFIED="1565824101305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Ejercitacion3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/M02C01_Java_Sin_Objetos_Base$CifradoCesar.ic" NAME="CifradoCesar Coverage Results" MODIFIED="1565830491104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>EjercitacionAvanzados.*</FILTER>
     </SUITE>
   </component>
 </project>

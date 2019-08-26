@@ -1,7 +1,9 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Main {
@@ -35,6 +37,21 @@ public class Main {
             System.out.println("Ejercicio 04:");
             System.out.println(nuevoConjunto);
 
+    //EJERCICIO 05
+        List<Integer> listaPrimerosCien = new ArrayList<>();
+        System.out.println("Ejercicio 05");
+        for (Integer i =0; i<100; i++) {
+            System.out.println(i);
+        }
 
+    //EJERCICIO 06
+        Set<Integer> conjuntoPrimerosCien = new HashSet<>();
+        for (Integer i =0; i<100; i++) {
+            conjuntoPrimerosCien.add(1);
+        }
+        System.out.println("Ejercicio 06");
+        System.out.println(conjuntoPrimerosCien);
     }
+    //EJERCICIO 07
+
 }
