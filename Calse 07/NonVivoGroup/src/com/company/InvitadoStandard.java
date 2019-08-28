@@ -13,4 +13,8 @@ public class InvitadoStandard extends Invitado{
     //No defino cómo es el método porque lo hereda de Invitado
 
 
+    @Override
+    public void comer() {
+        System.out.println("Estoy comiendo torta");
+    }
 }

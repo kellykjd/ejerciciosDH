@@ -1,6 +1,6 @@
 package com.company;
 
-public class Invitado {
+public abstract class Invitado extends Object {
 //ATRIBUTOS
     private String nombre;
     private Integer dni;
@@ -12,9 +12,10 @@ public class Invitado {
     }
 
 //METODOS
-    //Defino lo que quiero que haga ek método estándar
-    public void comer(){
-        System.out.println("Estoy comiendo torta");
+    //Defino lo que quiero que haga el método estándar
+    public abstract void comer();
     }
 
-}
+
+
+
