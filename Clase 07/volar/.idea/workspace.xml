@@ -4,11 +4,7 @@
     <list default="true" id="98230238-c1a0-44b2-93a7-6ef52db49442" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NonVivoGroup/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Pato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Pato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TorreDeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TorreDeControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 05/Herencia/src/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 05/Herencia/src/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 09/Equals()/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 09/Equals()/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjerciciosVarios" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

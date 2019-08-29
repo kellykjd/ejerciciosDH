@@ -2,83 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dda8a79-bcd5-4299-b3df-7d0a1fe80c38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/EjerciciosVarios.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/out/production/EjerciciosVarios/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/out/production/EjerciciosVarios/com/company/Prueba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/EjerciciosVarios/src/com/company/Prueba.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/NonVivoGroup.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/Explotables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/FuegoArtificial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/Invitado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/InvitadoDH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/InvitadoStandard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/NonVivoGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/out/production/NonVivoGroup/com/company/Packs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/Explotables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/FuegoArtificial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/Invitado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/InvitadoDH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/InvitadoStandard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/NonVivoGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/NonVivoGroup/src/com/company/Packs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/impresora.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Contrato.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Documento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Foto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Impresora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Imprimible.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/out/production/impresora/com/company/TorreDeControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Contrato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Documento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Foto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Impresora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Imprimible.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/impresora/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/out/production/volar/com/company/Avion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/out/production/volar/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/out/production/volar/com/company/Pato.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/out/production/volar/com/company/Superman.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/out/production/volar/com/company/TorreDeControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/out/production/volar/com/company/Volable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Avion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Pato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Superman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/TorreDeControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/src/com/company/Volable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Calse 07/volar/volar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 07/NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 07/NonVivoGroup/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 07/volar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 07/volar/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566953836400" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TomYJerry" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
