@@ -9,7 +9,6 @@ public class Gato {
     private String nombre;
     private Double energia;
     private Double velocidad;
-    private List<Raton> listadoRatones;
 
 
     //CONTRUCTOR
@@ -18,50 +17,38 @@ public class Gato {
         this.nombre = nombre;
         this.energia = 0.0;
         this.velocidad = 5.0;
-        listadoRatones = new ArrayList<>();
     }
+
 
     //MÉTODOS
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public Double getEnergia() {
-        return energia;
-    }
-
-    public Double getVelocidad() {
-        return velocidad;
-    }
-
-    public List getListadoRatones() {
-        return listadoRatones;
-    }
 
     public void comerRaton(Raton unRaton){
         energia=energia+unRaton.getPeso();
-    }
+        System.out.println("Me comí un ratón, mi nueva energía es : "+energia);
 
-    public void agregarRatones(Raton unRaton){
-        listadoRatones.add(unRaton);
     }
 
     public void comerRaton(List<Raton> ratones){
-        for (Raton unRaton: listadoRatones) {
+        for (Raton unRaton: ratones) {
                 comerRaton(unRaton);
         }
     }
 
+    public Double energiaConsumida(Integer cantidadMetros){
+        return 0.5*cantidadMetros;
+    }
+
     public Double correr(Integer cantidadMetros){
-            energia = energia - (0.5*cantidadMetros);
+        energia=energia-energiaConsumida(cantidadMetros);
         return cantidadMetros/velocidad;
     }
 
     public Boolean meConvieneComerA(Raton unRaton, Integer unaDistancia){
-
-        return (energia=energia+unRaton.getPeso()) > (energia = energia - (0.5*unaDistancia));
+        return (unRaton.getPeso() > (energia-energiaConsumida(unaDistancia)));
     }
+
+
 
 
 
