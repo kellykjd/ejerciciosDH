@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class    Main {
 
     public static void main(String[] args) {
 	// write your code here
@@ -52,9 +52,10 @@ public class Main {
         System.out.println("\n \n");
         System.out.println("EJERCICIO 02");
         for (String unAmigo:diccionario2.keySet()) {
-            System.out.println(unAmigo+" "+diccionario2.get(unAmigo));
-        }
+            System.out.println(unAmigo+" "+diccionario2.keySet());
+        //
+       // System.out.println(unAmigo + diccionario2.keySet());
 
 
     }
-}
+}}
