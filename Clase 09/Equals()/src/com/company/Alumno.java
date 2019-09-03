@@ -1,6 +1,6 @@
 package com.company;
 
-public class Alumno extends Object {
+public class    Alumno extends Object {
     private String nombre;
     private Integer numeroDeAlumno;
 

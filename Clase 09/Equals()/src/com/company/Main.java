@@ -1,6 +1,6 @@
 package com.company;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class Main {
         Alumno alumno2 = new Alumno("Clara",19);
         Alumno alumno3 = new Alumno("María",7);
         Alumno alumno4 = new Alumno("Adrián",43);
-        Alumno alumno5 = new Alumno("Jose",7);
+            Alumno alumno5 = new Alumno("Jose",7);
         List<Alumno> listaDeAlumnos = new ArrayList<>();
         listaDeAlumnos.add(alumno1);
         listaDeAlumnos.add(alumno2);
