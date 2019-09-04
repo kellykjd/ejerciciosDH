@@ -6,6 +6,9 @@ public class Main {
 	// write your code here
 
         Cliente cliente1 = new Cliente("Luis","Paracetamol");
+        Cliente cliente2 = new Cliente("Cecilia","Vitamina");
+        Cliente cliente3 = new Cliente("Julián","Omeprazol");
+
         Medicamento unMedicamento = new Medicamento();
         Medicamento otroMedicamento = new Medicamento();
 
@@ -14,11 +17,17 @@ public class Main {
         unMedicamento.contiene("Amoxicilina");
 
         otroMedicamento.contiene("Ibuprofeno");
-        otroMedicamento.contiene("Vitamnia E");
-        otroMedicamento.contiene("sdfsdfsdf");
+        otroMedicamento.contiene("Vitamina");
+        otroMedicamento.contiene("sdfsdf");
 
         unMedicamento.sePuedeVender(cliente1);
         otroMedicamento.sePuedeVender(cliente1);
+
+        unMedicamento.sePuedeVender(cliente2);
+        otroMedicamento.sePuedeVender(cliente2);
+
+        unMedicamento.sePuedeVender(cliente3);
+        otroMedicamento.sePuedeVender(cliente3);
 
     //Crear droguería
     //Crear un cliente ingresando nombre y droga al que es alergico
