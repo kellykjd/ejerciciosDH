@@ -12,7 +12,9 @@ public class Empresa {
 
     public void subirGrupoPasajeros(Vehiculo unVehiculo){
         for (Pasajero unPasajero: grupoPasajeros) {
-            unVehiculo.subir(unPasajero);
+            unVehiculo.subir(null);
+//esto lo hice a propósito para probar el catch and try, la línea correcta aquí es:
+            //unVehiculo.subir(unPasajero);
         }
     }
 

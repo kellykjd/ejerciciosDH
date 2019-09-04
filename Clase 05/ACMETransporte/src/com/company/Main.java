@@ -27,5 +27,11 @@ public class Main {
         micro.subir(pasajeroCuatro);
         micro.subir(pasajeroDos);
 
+        try{acme.subirGrupoPasajeros(micro);}catch (Exception e){
+            System.out.println("****Revisar el código en la clase empresa, en el método subirGrupoPasajero****");
+            e.printStackTrace();
+        }
+
+
     }
 }

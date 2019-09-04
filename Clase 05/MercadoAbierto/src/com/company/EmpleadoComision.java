@@ -21,9 +21,13 @@ public class EmpleadoComision extends Empleado {
     @Override
     public void cobrar() {
         System.out.println("El empleado "+getNombre()+" registró las siguientes ventas y comisiones:");
-        for (Double unaVenta: listaVentas) {
-            System.out.println("Venta: "+unaVenta+" y comisión: "+((unaVenta*comision)/100));
-            sumaTotal=sumaTotal+(unaVenta+((unaVenta*comision)/100));
+        try {
+            for (Double unaVenta : listaVentas) {
+                System.out.println("Venta: " + unaVenta + " y comisión: " + ((unaVenta * comision) / 100));
+                sumaTotal = sumaTotal + (unaVenta + ((unaVenta * comision) / 100));
+            }
+        }catch(ArithmeticException e){
+            System.out.println("No se pudo calcular las ventas ni comisiones");
         }
         System.out.println("Su sueldo a cobrar es de: "+(getSueldo()+sumaTotal));
     }
