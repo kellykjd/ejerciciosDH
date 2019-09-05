@@ -8,6 +8,7 @@ public class Vehiculo {
     private Integer peso;
     private Integer ruedas;
 
+
     public Vehiculo(Integer velocidad, Integer aceleracion, Integer anguloDeGiro, String patente, Integer peso, Integer ruedas) {
         this.velocidad = velocidad;
         this.aceleracion = aceleracion;
@@ -40,4 +41,10 @@ public class Vehiculo {
     public Integer getRuedas() {
         return ruedas;
     }
+
+    public Integer getValor(){
+        return (velocidad*(aceleracion/2))/(anguloDeGiro*(peso-ruedas*100));
+    }
+
+
 }
