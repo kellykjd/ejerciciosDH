@@ -9,11 +9,9 @@ public abstract class Prenda {
         this.modelo = modelo;
     }
 
-    public String getMarca() {
-        return marca;
+    @Override
+    public String toString() {
+        return this.marca+" "+this.modelo;
     }
 
-    public String getModelo() {
-        return modelo;
-    }
 }

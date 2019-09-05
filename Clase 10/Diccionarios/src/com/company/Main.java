@@ -52,7 +52,7 @@ public class    Main {
         System.out.println("\n \n");
         System.out.println("EJERCICIO 02");
         for (String unAmigo:diccionario2.keySet()) {
-            System.out.println(unAmigo+" "+diccionario2.keySet());
+            System.out.println(unAmigo+" - "+diccionario2.get(unAmigo));
         //
        // System.out.println(unAmigo + diccionario2.keySet());
 

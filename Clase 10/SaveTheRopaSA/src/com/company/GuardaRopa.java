@@ -15,20 +15,21 @@ public class GuardaRopa {
 
     public Integer guardarPrendas(List<Prenda> listaDePrenda){
         contador=contador + 1;
-
         diccionario.put(contador, listaDePrenda);
-        System.out.println(contador + " " + diccionario.get(contador));
+        System.out.println("El identificador es: "+contador);
         return contador;
     }
 
     public void mostrarPrendas() {
-        for (Integer contador : diccionario.keySet()) {
-            System.out.println(contador + " " + diccionario.keySet());
+        for (Integer clave : diccionario.keySet()) {
+            System.out.println(clave+" "+diccionario.get(clave));
         }
     }
 
-    public List<Prenda> devolverPrendas(Integer numero){
-        return diccionario.remove(numero);
+    public void devolverPrendas(Integer numero){
+
+        diccionario.remove(numero);
+        System.out.println(diccionario);
     }
 
 }

@@ -1,23 +1,32 @@
 package com.company;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
         GuardaRopa saveTheRopa = new GuardaRopa();
-
-        Cliente laura = new Cliente("laura");
-        Pantalon pantalon1 = new Pantalon("Levis","skiny");
+        Prenda pantalon1 = new Pantalon("Levis","skiny");
         Vestido vestido1 = new Vestido("DG","black-winter");
-        laura.prendas(pantalon1);
-        laura.prendas(vestido1);
+        List<Prenda> miLista = new ArrayList<>();
+        List<Prenda> miLista2 = new ArrayList<>();
+        List<Prenda> miLista3 = new ArrayList<>();
 
-       // saveTheRopa.guardarPrendas(laura.getPrendas());
-      //  saveTheRopa.mostrarPrendas();
-     //   saveTheRopa.devolverPrendas(2);
-        laura.getPrendas();
+        miLista.add(pantalon1);
+        miLista.add(vestido1);
+        miLista2.add(vestido1);
+        miLista2.add(pantalon1);
+        miLista3.add(vestido1);
+
+
+     saveTheRopa.guardarPrendas(miLista);
+     saveTheRopa.guardarPrendas(miLista2);
+    saveTheRopa.guardarPrendas(miLista3);
+     saveTheRopa.mostrarPrendas();
+     saveTheRopa.devolverPrendas(3);
 
     }
 }

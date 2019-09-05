@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da6ffe4b-5c46-4a00-a130-2b491a9f0813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../volar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../volar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 09/Equals()/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 09/Equals()/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 10/Diccionarios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/Diccionarios/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 10/Diccionarios/out/production/Diccionarios/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/Diccionarios/out/production/Diccionarios/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 10/Diccionarios/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/Diccionarios/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566953838241" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../volar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
