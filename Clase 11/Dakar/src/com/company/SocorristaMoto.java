@@ -2,7 +2,7 @@ package com.company;
 
 public class SocorristaMoto {
 
-    public void socorrer(Moto unaMoto){
-        System.out.println("Socorriendo una moto");
+    public void socorrer(Moto moto){
+        System.out.println("socorri a " + moto);
     }
 }

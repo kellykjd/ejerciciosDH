@@ -1,9 +1,12 @@
 package com.company;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Carrera {
-    private Integer distancia;
+
+    //creo los atributos de la clase
+    private Double distancia;
     private Integer premioEnDolares;
     private String nombre;
     private Integer cantidadDeVehiculosPermitidos;
@@ -11,114 +14,122 @@ public class Carrera {
     private SocorristaAuto socorristaAuto;
     private SocorristaMoto socorristaMoto;
 
-    public Carrera(Integer distancia, Integer premioEnDolares, String nombre, Integer cantidadDeVehiculosPermitidos) {
+    //constructor
+
+    public Carrera(Double distancia, Integer premioEnDolares, String nombre, Integer cantidadDeVehiculosPermitidos) {
         this.distancia = distancia;
         this.premioEnDolares = premioEnDolares;
         this.nombre = nombre;
         this.cantidadDeVehiculosPermitidos = cantidadDeVehiculosPermitidos;
         this.listaDeVehiculos = new ArrayList<>();
-        this.socorristaAuto  = new SocorristaAuto();
-        this.socorristaMoto  = new SocorristaMoto();
+        socorristaAuto = new SocorristaAuto();
+        socorristaMoto = new SocorristaMoto();
     }
 
-    private boolean hayCupo(){
+    //METODOS
+
+    //vamos a crear un metodo que de de alta un Auto
+    public void darDeAltaUnAuto(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente) {
+        //chequeo si hay cupo
+        if(hayCupo()){
+            //creo un nuevo auto
+            Auto auto = new Auto(velocidad,aceleracion,anguloDeGiro,patente);
+            //agrego ese auto a mi lista de vehiculos
+            listaDeVehiculos.add(auto);
+            System.out.println("Auto agregada correctamente");
+        }
+        else {
+            System.out.println("no hay cupo");
+        }
+    }
+
+
+    //vamos a crear un metodo que de de alta un Moto
+    public void darDeAltaUnMoto(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente) {
+        //chequeo si hay cupo
+        if(hayCupo()){
+            //aca me ahorro la variable y creo la moto directamente en el add
+            listaDeVehiculos.add(new Moto(velocidad, aceleracion, anguloDeGiro, patente));
+            System.out.println("moto agregada correctamente");
+        }else {
+            System.out.println("no hay cupo");
+        }
+
+    }
+
+    //metodo interno que chequea si hay cupo
+    private Boolean hayCupo(){
         return listaDeVehiculos.size() < cantidadDeVehiculosPermitidos;
     }
 
-    public void darDeAltaAuto(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente) {
-        if (hayCupo()) {
-            listaDeVehiculos.add(new Auto(velocidad,aceleracion,anguloDeGiro,patente));
-            System.out.println("El vehículo con patente " + patente + " fue inscrito con éxito.");
-    }else{
-            System.out.println("Lo siento, se ha llegado al tope de vehículos inscritos.");}
-            System.out.println(listaDeVehiculos);
-    }
 
-    public void darDeAltaMoto(Double velocidad, Double aceleracion, Double anguloDeGiro, String patente) {
-        if (hayCupo()) {
-                                //Esta es otra manera de instanciar un nuevo objeto de tipo vehículo para agregarlo directamente
-                                //a la lista.
-            listaDeVehiculos.add(new Moto(velocidad,aceleracion,anguloDeGiro,patente));
-            System.out.println("El vehículo con patente " + patente + " fue inscrito con éxito.");
-        }else{
-            System.out.println("Lo siento, se ha llegado al tope de vehículos inscritos.");}
-        System.out.println(listaDeVehiculos);
-    }
-
-    private Vehiculo buscarPorPatente(String patente) {
-        Vehiculo vehiculoABuscar = null;
-        for (Vehiculo unVehiculo : listaDeVehiculos) {
-            if (unVehiculo.getPatente().equals(patente)) { //recordar que el método equals está sobreescrito.
-                vehiculoABuscar = unVehiculo;
-            }
+    //eliminar vehiculo recibiendo el vehiculo que quiere eliminar
+    public void eliminarVehiculo(Vehiculo unVehiculo){
+        //para que esto funcione tengo que sobreescribir el equals en la clase vehiculo
+        if(listaDeVehiculos.remove(unVehiculo)){
+            System.out.println("Vehiculo eliminado correctamente");
+        }else {
+            System.out.println("no se pudo eliminar el vehiculo");
         }
+
     }
 
-    public void eliminarVehiculo(Vehiculo unVehiculo) {
-        if (listaDeVehiculos.remove(unVehiculo)){ //"listaDeVehiculos.remove" devuelve un booleano y a su vez se ejecuta el código al momento
-        System.out.println("El vehículo " + unVehiculo + " fue eliminado con éxito");}
-        else {
-            System.out.println("No se pudo remover");
-        }
-        System.out.println(listaDeVehiculos);
-    }
-
-//NUNCA SE DEBE ELIMINAR ALGO DE UNA LISTA DENTRO DE UN FOR, PARA ELLO SE GUARDA EL VALOR EN  UNA VARIABLE QUE LUEGO
-//SE UTILIZARÁ PARA ELIMINAR ESE ELEMENTO DE LA LISTA
-    public void eliminarVehiculo(String unaPatente) {
-
-
-        Vehiculo vehiculoAEliminar= buscarPorPatente(unaPatente);
+    //overloading de el metodo eliminar
+    //eliminar vehiculo recibiendo el la patente del vehiculo que quiere eliminar
+    public void eliminarVehiculo(String unaPatente){
+        //creo una variable que es el vehiculo que voy a eliminar
+        //uso el metodo que cree para encontrar un vehiculo con esa patente
+        Vehiculo vehiculoAEliminar = buscarVehiculoPorPatente(unaPatente);
+        //uso el metodo eliminar vehiculo que ya habia creado
         eliminarVehiculo(vehiculoAEliminar);
-
     }
-/*
 
-    public void eliminarVehiculoconPatente(String unaPatente) {
-        listaDeVehiculos.remove(unaPatente);
-        System.out.println("El vehículo " + unaPatente + " fue eliminado con éxito");
-        System.out.println(listaDeVehiculos);
-    }
-*/
-
-    public Vehiculo definirGanador() { //TODO: insertar un try and catch para que no corra el código si la lista está vacía ya que uede romper
-
+    //metodo para definir el ganador de la carrera
+    public Vehiculo definirGanador(){
+        //creo una variable donde voy a guardar al ganador, le asigno el primero de la lista
         Vehiculo vehiculoGanador = listaDeVehiculos.get(0);
-        for (Vehiculo vehiculo: listaDeVehiculos){
-            if (vehiculo.calcularValor()>vehiculoGanador.calcularValor()){
-                vehiculoGanador =vehiculo;
+        //recorro la lista
+        for (Vehiculo vehiculo: listaDeVehiculos) {
+            //le pregunto al que estoy recorriendo si le gana la ganador
+            if(vehiculo.calcularValor() > vehiculoGanador.calcularValor()){
+                //si es cierto el que rocorro se vuelve el nuevo ganador
+                vehiculoGanador = vehiculo;
             }
         }
+        //hago un return del ganador
         return vehiculoGanador;
     }
 
     public void socorrerAuto(String patente){
+        //busco el vehiculo que quiero socorrer con el metodo que ya cree
+        //como mi metodo devuelve vehiculo hago un casteo a auto
+        //hago un try catch por si lo que me encuentra no es un auto
         try{
-            Auto vehiculoASocorrer = (Auto) buscarPorPatente(patente);
+            Auto vehiculoASocorrer = (Auto) buscarVehiculoPorPatente(patente);
             socorristaAuto.socorrer(vehiculoASocorrer);
-
         }catch (ClassCastException e){
-
-            System.out.println("Lo que estás intentado socorrer no es un Auto");
-         }
-       }
+            System.out.println("lo que estas intentando socorrer no es un Auto");
+        }
+    }
 
     public void socorrerMoto(String patente){
         try{
-            Moto vehiculoASocorrer = (Moto) buscarPorPatente(patente);
+            Moto vehiculoASocorrer = (Moto) buscarVehiculoPorPatente(patente);
             socorristaMoto.socorrer(vehiculoASocorrer);
-
         }catch (ClassCastException e){
-
-            System.out.println("Lo que estás intentado socorrer no es una moto");
-
+            System.out.println("lo que estas intentando socorrer no es un Moto");
         }
-
-
     }
-
+    private Vehiculo buscarVehiculoPorPatente(String patente){
+        Vehiculo vehiculoBuscado = null;
+        for (Vehiculo vehiculo:listaDeVehiculos) {
+            //busco el vehiculo con la patente que me pasan por parametro
+            if(vehiculo.getPatente().equals(patente)){
+                //guardo el vehiculo que quiero devolver en mi variable
+                vehiculoBuscado = vehiculo;
+            }
+        }
+        //uso el return para devolver vehiculo que ya habia creado
+        return vehiculoBuscado;
     }
-
-
-
-
+}
