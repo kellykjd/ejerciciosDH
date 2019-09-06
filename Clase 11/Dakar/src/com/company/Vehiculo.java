@@ -26,6 +26,17 @@ public abstract class Vehiculo {
 
     //getter
 
+    public Double getVelocidad() {
+        return velocidad;
+    }
+
+    public Double getAceleracion() {
+        return aceleracion;
+    }
+
+    public Double getAnguloDeGiro() {
+        return anguloDeGiro;
+    }
 
     public String getPatente() {
         return patente;
@@ -58,4 +69,10 @@ public abstract class Vehiculo {
     public int hashCode() {
         return patente.hashCode();
     }
+
+    @Override
+    public String toString() {
+        return patente;
+    }
 }
+

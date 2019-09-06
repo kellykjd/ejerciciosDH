@@ -36,10 +36,10 @@ public class Carrera {
             Auto auto = new Auto(velocidad,aceleracion,anguloDeGiro,patente);
             //agrego ese auto a mi lista de vehiculos
             listaDeVehiculos.add(auto);
-            System.out.println("Auto agregada correctamente");
+            System.out.println("Auto agregado correctamente.");
         }
         else {
-            System.out.println("no hay cupo");
+            System.out.println("No hay cupo.");
         }
     }
 
@@ -50,9 +50,9 @@ public class Carrera {
         if(hayCupo()){
             //aca me ahorro la variable y creo la moto directamente en el add
             listaDeVehiculos.add(new Moto(velocidad, aceleracion, anguloDeGiro, patente));
-            System.out.println("moto agregada correctamente");
+            System.out.println("Moto agregada correctamente.");
         }else {
-            System.out.println("no hay cupo");
+            System.out.println("No hay cupo.");
         }
 
     }
@@ -97,6 +97,7 @@ public class Carrera {
             }
         }
         //hago un return del ganador
+        System.out.println("EL vehículo ganador es el de la patente: "+vehiculoGanador);
         return vehiculoGanador;
     }
 
