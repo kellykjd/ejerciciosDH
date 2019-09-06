@@ -4,12 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Carrera dakar = new Carrera(200,5000,"Dakar",4);
-        Auto auto1 = new Auto(150,40,95,"AE8878");
-        Auto auto2 = new Auto(300,30,95,"AE8879");
+        Carrera dakar = new Carrera(200,5000,"Dakar",3);
+        Auto auto1 = new Auto(150.0,40.0,95.0,"AE8878");
+        Auto auto2 = new Auto(300.0,30.0,95.0,"AE8879");
 
-        Moto moto1 = new Moto(90,70,180,"MO0100");
-        Moto moto2 = new Moto(180,10,95,"MO0101");
+        Moto moto1 = new Moto(90.0,70.0,180.0,"MO0100");
+        Moto moto2 = new Moto(180.0,10.0,95.0,"MO0101");
 
 
         dakar.darDeAltaAuto(auto1.getVelocidad(),auto1.getAceleracion(),auto1.getAnguloDeGiro(),auto1.getPatente());
@@ -18,7 +18,9 @@ public class Main {
         dakar.darDeAltaMoto(moto2.getVelocidad(),moto2.getAceleracion(),moto2.getAnguloDeGiro(),moto2.getPatente());
 
         dakar.eliminarVehiculo(auto1);
-        dakar.eliminarVehiculoconPatente("MO0100");
+        dakar.eliminarVehiculo("MO0100");
+
+
 
 
     }
