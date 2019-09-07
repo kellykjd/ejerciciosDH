@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c240ee33-cabd-4413-b744-3265495015cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BancoSantanderArroyoBelgrano/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BancoSantanderArroyoBelgrano/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MercadoAbierto/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MercadoAbierto/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 07/NonVivoGroup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 07/NonVivoGroup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/Diccionarios/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/Diccionarios/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/Diccionarios/out/production/Diccionarios/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/Diccionarios/out/production/Diccionarios/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/Diccionarios/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/Diccionarios/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/GuardaRopa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/GuardaRopa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/Prenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/out/production/SaveTheRopaSA/com/company/Prenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/GuardaRopa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/GuardaRopa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 10/SaveTheRopaSA/src/com/company/Prenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 11/Dakar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 11/Dakar/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 11/Dakar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 11/Dakar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Clase 11/Dakar/src/com/company/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Clase 11/Dakar/src/com/company/Vehiculo.java" afterDir="false" />
-    </list>
+    <list default="true" id="c240ee33-cabd-4413-b744-3265495015cf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

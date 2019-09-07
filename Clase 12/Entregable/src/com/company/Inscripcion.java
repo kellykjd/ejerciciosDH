@@ -15,4 +15,11 @@ public class Inscripcion {
 
 
 
+    public Alumno getUnAlumno() {
+        return unAlumno;
+    }
+
+    public Curso getUnCurso() {
+        return unCurso;
+    }
 }

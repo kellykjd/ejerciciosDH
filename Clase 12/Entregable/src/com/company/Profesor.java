@@ -1,6 +1,6 @@
 package com.company;
 
-public class Profesor {
+public abstract class Profesor {
 
     private String nombre;
     private String apellido;
@@ -31,10 +31,6 @@ public class Profesor {
 
     public String getApellido() {
         return apellido;
-    }
-
-    public Integer getAntigüedad() {
-        return antigüedad;
     }
 
     public Integer getCodigoProfesor() {

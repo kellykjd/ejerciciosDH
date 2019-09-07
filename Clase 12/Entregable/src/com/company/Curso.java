@@ -22,6 +22,11 @@ public class Curso {
     }
 
     @Override
+    public String toString() {
+        return nombre;
+    }
+
+    @Override
     public boolean equals(Object obj) {
         Curso unCurso = (Curso) obj;
         return unCurso.codigoCurso.equals(this.codigoCurso);
@@ -43,11 +48,11 @@ public class Curso {
 
         if(hayCupo()){
             listaDeAlumnos.add(unAlumno);
-            System.out.println("Alumno inscripto satisfactoriamente");
+            System.out.println("Alumno "+unAlumno.getNombre()+" inscripto satisfactoriamente");
             return true;
         }
         else {
-            System.out.println("No se pudo agregar al alumno, no hay cupo.");
+            System.out.println("No se pudo agregar al alumno" +unAlumno.getNombre()+", no hay cupo.");
             return false;
         }
     }

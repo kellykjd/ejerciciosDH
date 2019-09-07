@@ -13,7 +13,6 @@ public class Alumno {
         this.codigoAlumno=codigoAlumno;
     }
 
-
     @Override
     public boolean equals(Object obj) {
         Alumno unAlumno = (Alumno) obj;
@@ -22,7 +21,7 @@ public class Alumno {
 
     @Override
     public String toString() {
-        return "Codigo de alumno: "+codigoAlumno+", nombre: "+nombre+", apellido: "+apellido;
+        return nombre;
     }
 
     public String getNombre() {
