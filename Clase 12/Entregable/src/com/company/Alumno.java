@@ -6,7 +6,6 @@ public class Alumno {
     private String apellido;
     private Integer codigoAlumno;
 
-
     public Alumno(String nombre, String apellido, Integer codigoAlumno){
         this.nombre = nombre;
         this.apellido = apellido;

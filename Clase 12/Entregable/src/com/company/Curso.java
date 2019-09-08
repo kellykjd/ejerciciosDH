@@ -22,14 +22,13 @@ public class Curso {
     }
 
     @Override
-    public String toString() {
-        return nombre;
-    }
-
-    @Override
     public boolean equals(Object obj) {
         Curso unCurso = (Curso) obj;
         return unCurso.codigoCurso.equals(this.codigoCurso);
+    }
+    @Override
+    public String toString() {
+        return nombre;
     }
 
     public String getNombre() {
@@ -45,7 +44,6 @@ public class Curso {
     }
 
     public Boolean agregarUnAlumno(Alumno unAlumno){
-
         if(hayCupo()){
             listaDeAlumnos.add(unAlumno);
             System.out.println("Alumno "+unAlumno.getNombre()+" inscripto satisfactoriamente");
@@ -57,20 +55,21 @@ public class Curso {
         }
     }
 
-
     public void eliminarUnAlumno(Alumno unAlumno){
-        if(listaDeAlumnos.remove(unAlumno)){
-            System.out.println("Alumno eliminado del sistema.");
-        }else {
-            System.out.println("No se pudo eliminar el alumno");
-        }
-
+      try{
+          if(listaDeAlumnos.remove(unAlumno)){
+              System.out.println("Alumno "+unAlumno.getNombre()+"eliminado del sistema.");
+          }else {
+            System.out.println("No se pudo eliminar al alumno "+unAlumno.getNombre());
+          }
+      }catch(NullPointerException e){
+          System.out.println("El valor del alumno ingresado es nulo, no se pudo eliminar. Por favor revise e intente de nuevo.");
+    }
     }
 
     public void setProfesorTitular(ProfesorTitular profesorTitular) {
         this.profesorTitular = profesorTitular;
     }
-
     public void setProfesorAdjunto(ProfesorAdjunto profesorAdjunto) {
         this.profesorAdjunto = profesorAdjunto;
     }

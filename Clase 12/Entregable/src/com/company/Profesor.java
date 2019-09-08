@@ -22,7 +22,7 @@ public abstract class Profesor {
 
     @Override
     public String toString() {
-        return "Codigo de alumno: "+codigoProfesor+", nombre: "+nombre+", apellido: "+apellido+", antigüedad: "+antigüedad;
+        return nombre;
     }
 
     public String getNombre() {

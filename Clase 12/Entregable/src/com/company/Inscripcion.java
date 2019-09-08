@@ -13,13 +13,16 @@ public class Inscripcion {
         this.fechaDeInscripcion = new Date();
     }
 
+    @Override
+    public String toString() {
+        return unCurso.getNombre();
+    }
 
-
-    public Alumno getUnAlumno() {
+/*    public Alumno getUnAlumno() {
         return unAlumno;
     }
 
     public Curso getUnCurso() {
         return unCurso;
-    }
+    }*/
 }
