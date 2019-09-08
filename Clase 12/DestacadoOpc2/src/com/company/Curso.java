@@ -46,6 +46,7 @@ public class Curso {
     public Boolean agregarUnAlumno(Alumno unAlumno){
         if(hayCupo()){
             listaDeAlumnos.add(unAlumno);
+            System.out.println("Alumno "+unAlumno.getNombre()+" inscripto satisfactoriamente");
             return true;
         }
         else {

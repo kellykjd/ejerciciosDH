@@ -118,6 +118,7 @@ public class DigitalHouseManager {
         buscarCursoPorCodigo(codigoCurso).agregarUnAlumno(buscarAlumnoPorCodigo(codigoAlumno));
         if (listaDeInscripciones.add(unaInscripcion)) {
             System.out.println("Se ha inscrito al alumno " + buscarAlumnoPorCodigo(codigoAlumno) + " en el curso " + buscarCursoPorCodigo(codigoCurso));
+            System.out.println(listaDeInscripciones);
         }
     }
 
@@ -126,7 +127,8 @@ public class DigitalHouseManager {
         ProfesorTitular profesorTitular = (ProfesorTitular) buscarProfesorPorCodigo(codigoProfesorTitular);
         buscarCursoPorCodigo(codigoCurso).setProfesorAdjunto(profesorAdjunto);
         buscarCursoPorCodigo(codigoCurso).setProfesorTitular(profesorTitular);
-        System.out.println("Se asignaron los profesores "+profesorAdjunto+" y "+profesorTitular+" al curso " + buscarCursoPorCodigo(codigoCurso));
+        System.out.println("Se asignaron los profesores al curso " + buscarCursoPorCodigo(codigoCurso));
+        System.out.println(listaDeCursos);
     }
 
 

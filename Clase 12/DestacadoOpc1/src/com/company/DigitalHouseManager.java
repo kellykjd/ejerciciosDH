@@ -126,7 +126,7 @@ public class DigitalHouseManager {
         ProfesorTitular profesorTitular = (ProfesorTitular) buscarProfesorPorCodigo(codigoProfesorTitular);
         buscarCursoPorCodigo(codigoCurso).setProfesorAdjunto(profesorAdjunto);
         buscarCursoPorCodigo(codigoCurso).setProfesorTitular(profesorTitular);
-        System.out.println("Se asignaron los profesores "+profesorAdjunto+" y "+profesorTitular+" al curso " + buscarCursoPorCodigo(codigoCurso));
+        System.out.println("Se asignaron los profesores "+profesorTitular+" y "+profesorAdjunto+" al curso "+ buscarCursoPorCodigo(codigoCurso));
     }
 
 
