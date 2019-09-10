@@ -1,58 +1,41 @@
 package com.company;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+import java.io.BufferedReader;
 
-import com.opencsv.CSVReader;
+public class LectorDeArchivosCSV {
+    //ATRIBUTOS
+    private String delimitador;                                                                         //Delimiters used in the CSV file
 
-public class LectorDeArchivosCSV{
-
-private CSVReader csvReader;
-private List<Alumno> listaDeAlumnos;
-
-public LectorDeArchivosCSV(){
-    csvReader = null;
-    listaDeAlumnos = new ArrayList<>();
+    //CONSTRUCTOR
+    public LectorDeArchivosCSV() {
+        delimitador = ",";
     }
 
-
-public void leerCSV(){
-try
-    {
-        /**
-         * Reading the CSV File
-         * Delimiter is comma
-         * Start reading from line 1
-         */
-        csvReader = new CSVReader(new FileReader("listadoDeAlumnos.csv"),',','"',1);
-        //employeeDetails stores the values current line
-        String[] employeeDetails = null;
-        while((employeeDetails = csvReader.readNext())!=null)
-        {
-            //Printing to the console
-
-            System.out.println(Arrays.toString(employeeDetails));
-        }
-    }
-        catch(Exception ee)
-    {
-        ee.printStackTrace();
-    }
-        finally
-    {
-        try
-        {
-            //closing the reader
-            csvReader.close();
-        }
-        catch(Exception ee)
-        {
-            ee.printStackTrace();
-        }
+    //METODO
+    public List<Alumno> leerCSV() {
+        BufferedReader br = null;
+        List<Alumno> listaDeAlumnos = new ArrayList<>();                                           //Create List for holding Employee objects
+        try {
+            br = new BufferedReader(new FileReader("listadoDeAlumnos.csv"));                   //Reading the csv file
+            String line = "";
+            br.readLine();                                                                              //Read to skip the header
+            while ((line = br.readLine()) != null) {                                                    //Reading from the second line
+                String[] detalleAlumno = line.split(delimitador);
+                if (detalleAlumno.length > 0) {
+                    Alumno unAlumno = new Alumno(detalleAlumno[1], detalleAlumno[2], Integer.parseInt(detalleAlumno[0]));                     //Save the alumno details in Alumno object
+                    listaDeAlumnos.add(unAlumno);
+                }
+            }
+            } catch (Exception ee) {
+                ee.printStackTrace();
+             }
+        return listaDeAlumnos;
     }
 }
 
 
 
-}
+
+

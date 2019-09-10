@@ -129,6 +129,12 @@ public class DigitalHouseManager {
         System.out.println("Se asignaron los profesores "+profesorTitular+" y "+profesorAdjunto+" al curso "+ buscarCursoPorCodigo(codigoCurso));
     }
 
+    public void inscribirGrupoDeAlumnos(List<Alumno> grupoDeAlumnos, Integer codigoCurso){
+        for (Alumno alumno:grupoDeAlumnos) {
+            listaDeAlumnos.add(alumno);
+            inscribirAlumno(alumno.getCodigoAlumno(),codigoCurso);
+        }
+    }
 
  /* PARTE K: Método con sout
     public void buscarCursoPorAlumno(Alumno unAlumno) {
