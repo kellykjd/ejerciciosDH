@@ -18,7 +18,9 @@ public class Inscripcion {
         return unCurso.getNombre();
     }
 
-/*    public Alumno getUnAlumno() {
+/* Habilitar para ejecutar la Parte K del curso
+
+public Alumno getUnAlumno() {
         return unAlumno;
     }
 

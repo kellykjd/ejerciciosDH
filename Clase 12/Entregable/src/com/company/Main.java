@@ -6,29 +6,36 @@ public class Main {
 
         DigitalHouseManager digitalHouseManager = new DigitalHouseManager();
 
-
+        //DAR DE ALTA A LOS PROFESORES
         digitalHouseManager.altaProfesorTitular("Carlos","Gutiérrez",0001,"Diseño Web");
         digitalHouseManager.altaProfesorTitular("Orlando","González",0002,"Base de Datos");
         digitalHouseManager.altaProfesorAdjunto("Axel","Centeno",0003,7);
         digitalHouseManager.altaProfesorAdjunto("Alejandro","Salvador",0004,9);
 
-
-        digitalHouseManager.altaCurso("Full Stack",20001,2);
+        //DAR DE ALTA A LOS CURSOS
+        digitalHouseManager.altaCurso("Full Stack",20001,3);
         digitalHouseManager.altaCurso("Android",20002,2);
 
+        //ASIGNAR LOS PROFESORES A LOS CURSOS
         digitalHouseManager.asignarProfesores(20001,0001,0003);
         digitalHouseManager.asignarProfesores(20002,0002,0004);
 
+        //DAR DE ALTA A LOS ALUMNOS
         digitalHouseManager.altaAlumno("Mary","Párica",0101);
         digitalHouseManager.altaAlumno("Olga","Betancourt",0102);
         digitalHouseManager.altaAlumno("Kelly","Jiménez",0103);
 
+        //INSCRIBIR A LOS ALUMNOS EN LOS CURSOS
         digitalHouseManager.inscribirAlumno(0101,20001);
         digitalHouseManager.inscribirAlumno(0102,20001);
         digitalHouseManager.inscribirAlumno(0101,20002);
         digitalHouseManager.inscribirAlumno(0102,20002);
+        digitalHouseManager.inscribirAlumno(0103,20002);
 
-        digitalHouseManager.bajaProfesor(003);
+        //DAR DE BAJA A UN PROFESOR
+        digitalHouseManager.bajaProfesor(004);
+
+        //DAR DE BAJA UN CURSO
         digitalHouseManager.bajaCurso(20002);
 
         //digitalHouseManager.buscarCursoPorCodigoAlumno(0101);
