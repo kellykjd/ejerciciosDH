@@ -27,10 +27,6 @@ public class Alumno {
         return nombre;
     }
 
-    public String getApellido() {
-        return apellido;
-    }
-
     public Integer getCodigoAlumno() {
         return codigoAlumno;
     }

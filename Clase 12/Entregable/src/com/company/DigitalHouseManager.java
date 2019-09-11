@@ -45,7 +45,7 @@ public class DigitalHouseManager {
         if (listaDeCursos.remove(cursoAEliminar)) {
             System.out.println("Curso " + cursoAEliminar + " dado de baja en el sistema.");
         } else {
-            System.out.println("No se pudo dar de baja el curso " + cursoAEliminar);
+            System.out.println("No se pudo dar de baja el curso , verificar el código ingresado.");
         }
     }
 
@@ -114,11 +114,16 @@ public class DigitalHouseManager {
     }
 
     public void inscribirAlumno(Integer codigoAlumno, Integer codigoCurso) {
-        Inscripcion unaInscripcion = new Inscripcion(buscarAlumnoPorCodigo(codigoAlumno), buscarCursoPorCodigo(codigoCurso));
-        buscarCursoPorCodigo(codigoCurso).agregarUnAlumno(buscarAlumnoPorCodigo(codigoAlumno));
-        if (listaDeInscripciones.add(unaInscripcion)) {
-            System.out.println("Se ha inscrito al alumno " + buscarAlumnoPorCodigo(codigoAlumno) + " en el curso " + buscarCursoPorCodigo(codigoCurso));
+        if (codigoAlumno!=null || codigoCurso!=null){
+            Inscripcion unaInscripcion = new Inscripcion(buscarAlumnoPorCodigo(codigoAlumno), buscarCursoPorCodigo(codigoCurso));
+            buscarCursoPorCodigo(codigoCurso).agregarUnAlumno(buscarAlumnoPorCodigo(codigoAlumno));
+            if (listaDeInscripciones.add(unaInscripcion)) {
+                System.out.println("Se ha inscrito al alumno " + buscarAlumnoPorCodigo(codigoAlumno) + " en el curso " + buscarCursoPorCodigo(codigoCurso));
+            }
+        }else{
+            System.out.println("Verificar el código ingresado.");
         }
+
     }
 
     public void asignarProfesores(Integer codigoCurso, Integer codigoProfesorTitular, Integer codigoProfesorAdjunto) {
@@ -131,10 +136,10 @@ public class DigitalHouseManager {
 
 
  /* PARTE K: Método con sout
-    public void buscarCursoPorAlumno(Alumno unAlumno) {
-        System.out.println("El alumno "+unAlumno.getNombre()+" se encuentra inscripto en los siguientes cursos: ");
+    public void buscarCursoPorCodigoAlumno(Integer codigoAlumno) {
+        System.out.println("El alumno "+buscarAlumnoPorCodigo(codigoAlumno)+" se encuentra inscripto en los siguientes cursos: ");
         for (Inscripcion unaInscripcion : listaDeInscripciones) {
-            if (unaInscripcion.getUnAlumno().equals(unAlumno)) {
+            if (unaInscripcion.getUnAlumno().equals(buscarAlumnoPorCodigo(codigoAlumno))) {
                 System.out.println(unaInscripcion.getUnCurso());
             }
         }
@@ -142,15 +147,15 @@ public class DigitalHouseManager {
 
 /* PARTE K: Método con ArrayList
 
-   public void buscarCursoPorAlumno(Alumno unAlumno) {
+   public void buscarCursoPorCodigoAlumno(Integer codigoAlumno) {
     List<Curso> cursosInscriptos = new ArrayList<>();
 
         for (Inscripcion unaInscripcion : listaDeInscripciones) {
-            if (unaInscripcion.getUnAlumno().equals(unAlumno)) {
+            if (unaInscripcion.getUnAlumno().equals(buscarAlumnoPorCodigo(codigoAlumno))) {
                 cursosInscriptos.add(unaInscripcion.getUnCurso());
             }
         }
-        System.out.println("El alumno "+unAlumno.getNombre()+" se encuentra inscripto en los siguientes cursos: "+cursosInscriptos);
+        System.out.println("El alumno "+buscarAlumnoPorCodigo(codigoAlumno)+" se encuentra inscripto en los siguientes cursos: "+cursosInscriptos);
     }*/
 
 
