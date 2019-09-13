@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="70dp"
+        android:background="#3F51B5"
+        android:text="My Application"
+        android:textColor="#FeFeFe"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/caja_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="70dp"
+        android:hint="Nombre"
+        android:textSize="30sp"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/boton_cambiarColorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Layout"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/boton_cambiarColorTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Texto"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/boton_cambiarContenidoTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar contenido"
+        android:textSize="20sp"/>
+
+</LinearLayout>
