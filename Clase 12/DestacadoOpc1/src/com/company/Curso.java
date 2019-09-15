@@ -49,7 +49,7 @@ public class Curso {
             return true;
         }
         else {
-            System.out.println("No se pudo agregar al alumno" +unAlumno.getNombre()+", no hay cupo.");
+            System.out.println("No se pudo agregar al alumno " +unAlumno.getNombre()+", no hay cupo.");
             return false;
         }
     }

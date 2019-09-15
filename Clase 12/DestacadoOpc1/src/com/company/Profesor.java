@@ -29,10 +29,6 @@ public abstract class Profesor {
         return nombre;
     }
 
-    public String getApellido() {
-        return apellido;
-    }
-
     public Integer getCodigoProfesor() {
         return codigoProfesor;
     }

@@ -18,11 +18,5 @@ public class Inscripcion {
         return unCurso.getNombre();
     }
 
-/*    public Alumno getUnAlumno() {
-        return unAlumno;
-    }
 
-    public Curso getUnCurso() {
-        return unCurso;
-    }*/
 }

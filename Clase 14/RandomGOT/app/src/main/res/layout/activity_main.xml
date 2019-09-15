@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:background="#000"
+        android:text="¿QUIÉN GANARÁ EL TRONO?"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:gravity="center"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:background="#000"
+        android:text="Presiona el botón y entérate"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/mainActivity_imageViewPersonaje"
+        android:layout_weight="0.50"
+        android:layout_width="match_parent"
+        android:layout_height="0.50dp"
+        android:scaleType="center"
+        />
+
+    <TextView
+        android:id="@+id/mainActivity_textViewPersonaje"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#747171"/>
+
+    <Button
+        android:id="@+id/mainActivity_botonDescubrirPersonaje"
+        android:layout_weight="0.10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#59C3F0"
+        android:gravity="center"
+        android:text="DESCUBRIR"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

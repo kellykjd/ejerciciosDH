@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#9C27B0"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Concatenador"
+        android:textColor="#FeFeFe"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/mainActivity_texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba un texto"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/mainActivity_texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba otro texto"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/mainActivity_textViewConcatenado"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/mainActivity_botonConcatenador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Concatenar"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

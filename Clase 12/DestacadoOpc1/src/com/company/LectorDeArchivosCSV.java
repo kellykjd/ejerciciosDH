@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 
 public class LectorDeArchivosCSV {
     //ATRIBUTOS
-    private String delimitador;                                                                         //Delimiters used in the CSV file
+    private String delimitador;
 
     //CONSTRUCTOR
     public LectorDeArchivosCSV() {
@@ -16,15 +16,15 @@ public class LectorDeArchivosCSV {
     //METODO
     public List<Alumno> leerCSV() {
         BufferedReader br = null;
-        List<Alumno> listaDeAlumnos = new ArrayList<>();                                           //Create List for holding Employee objects
+        List<Alumno> listaDeAlumnos = new ArrayList<>();
         try {
-            br = new BufferedReader(new FileReader("listadoDeAlumnos.csv"));                   //Reading the csv file
+            br = new BufferedReader(new FileReader("listadoDeAlumnos.csv"));
             String line = "";
-            br.readLine();                                                                              //Read to skip the header
-            while ((line = br.readLine()) != null) {                                                    //Reading from the second line
+            br.readLine();
+            while ((line = br.readLine()) != null) {
                 String[] detalleAlumno = line.split(delimitador);
                 if (detalleAlumno.length > 0) {
-                    Alumno unAlumno = new Alumno(detalleAlumno[1], detalleAlumno[2], Integer.parseInt(detalleAlumno[0]));                     //Save the alumno details in Alumno object
+                    Alumno unAlumno = new Alumno(detalleAlumno[1], detalleAlumno[2], Integer.parseInt(detalleAlumno[0]));
                     listaDeAlumnos.add(unAlumno);
                 }
             }
