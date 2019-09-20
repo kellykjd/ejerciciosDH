@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceptorActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/ReceptorActivity_TextViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Nombre ingresado: "
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/ReceptorActivity_Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ReceptorActivity_TextViewNombre"
+        android:gravity="left"
+        android:text="Nombre: "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ReceptorActivity_TextViewApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:text="Apellido ingresado: "
+        android:layout_below="@id/ReceptorActivity_TextViewNombre"/>
+
+    <TextView
+        android:id="@+id/ReceptorActivity_Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:text="Apellido"
+        android:layout_below="@id/ReceptorActivity_TextViewNombre"/>
+
+
+    <TextView
+        android:id="@+id/ReceptorActivity_TextViewEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="left"
+        android:text="Edad ingresada: "
+        android:layout_below="@id/ReceptorActivity_TextViewApellido"/>
+
+</RelativeLayout>

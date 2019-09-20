@@ -30,7 +30,8 @@
         android:layout_below="@id/EditText_Username"
         android:layout_centerHorizontal="true"
         android:textSize="30sp"
-        android:hint="Password"/>
+        android:hint="Password"
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/Button_Login"

@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -56,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
     private void cambiarDeActivityLogin(){
         //guardo el valor del username
         String username = editTextUsername.getText().toString();
+        String password = editTextPasw.getText().toString();
+        if(TextUtils.isEmpty(username) || TextUtils.isEmpty(password)){
+            Toast.makeText(this, "Los campos no pueden estar vacíos", Toast.LENGTH_SHORT).show();
+        }else{
         // creo el intent a la nueva actividad (el pasaje)
         Intent intent = new Intent(this,SegundaActivity.class);
         // creo el bundle (la valija)
@@ -65,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         //le ponemos el bundle al intent
         intent.putExtras(bundle);
         //arrancamos la nueva activity
-        startActivity(intent);
+        startActivity(intent);}
     }
 
 
