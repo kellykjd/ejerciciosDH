@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <EditText
+        android:id="@+id/RegisterActivityEditText_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/RegisterActivityEditText_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RegisterActivityEditText_Username"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/RegisterActivityEditText_ConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RegisterActivityEditText_Password"
+        android:layout_alignLeft="@id/RegisterActivityEditText_Password"
+        android:layout_alignRight="@id/RegisterActivityEditText_Password"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:hint="Confirm"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/RegisterActivityButton_Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:layout_below="@id/RegisterActivityEditText_ConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+
+
+
+</RelativeLayout>
