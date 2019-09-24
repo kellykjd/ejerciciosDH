@@ -1,6 +1,7 @@
 package com.example.loginfragments;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         botonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                cambiarDeActivityLogin();
+                llamarAFrameLogin();
 
             }
         });
@@ -38,14 +39,27 @@ public class MainActivity extends AppCompatActivity {
         botonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                llamarAFrameRegister();
             }
         });
 
+        Intent mainInten = getIntent();
+
     }
 
-    private void cambiarDeActivityLogin(){
-        //guardo el valor del username
+
+    private void cambiaDeFragment(Fragment fragment){
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.contenedorDeFragment,fragment,null);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
+
+
+    private void llamarAFrameLogin(){
+
         String username = editTextUsername.getText().toString();
         String password = editTextPasw.getText().toString();
         if(TextUtils.isEmpty(username) || TextUtils.isEmpty(password)){
@@ -55,17 +69,15 @@ public class MainActivity extends AppCompatActivity {
             Bundle bundle = new Bundle();
             bundle.putString(LoginFragment.CLAVE_USUARIO,username);
             loginFragment.setArguments(bundle);
-
-
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.contenedorDeFragment,loginFragment,null);
-            fragmentTransaction.addToBackStack(null);
-            fragmentTransaction.commit();
+            cambiaDeFragment(loginFragment);
 
         }
     }
 
+    private void llamarAFrameRegister(){
+            RegisterFragment registerFragment = new RegisterFragment();
+            cambiaDeFragment(registerFragment);
+    }
 
 
 }
