@@ -48,21 +48,18 @@ public class MainActivity extends AppCompatActivity {
         //guardo el valor del username
         String username = editTextUsername.getText().toString();
         String password = editTextPasw.getText().toString();
-        LoginFragment loginFragment = new LoginFragment();
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
         if(TextUtils.isEmpty(username) || TextUtils.isEmpty(password)){
             Toast.makeText(this, "Los campos no pueden estar vacíos", Toast.LENGTH_SHORT).show();
         }else{
-            // creo el bundle (la valija)
+            LoginFragment loginFragment = new LoginFragment();
             Bundle bundle = new Bundle();
-            // le guardo los valores al bundle (cargo la valija)
             bundle.putString(LoginFragment.CLAVE_USUARIO,username);
-            //le ponemos el bundle al intent
             loginFragment.setArguments(bundle);
-            //arrancamos la nueva activity
-            fragmentTransaction.add(R.id.contenedorDeFragment,loginFragment,null);
+
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.contenedorDeFragment,loginFragment,null);
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
 

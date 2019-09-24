@@ -61,12 +61,12 @@
             android:layout_below="@id/Button_Login"
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>
-    <RelativeLayout
+    <FrameLayout
         android:id="@+id/contenedorDeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-    </RelativeLayout>
+    </FrameLayout>
 
 </FrameLayout>

@@ -18,7 +18,7 @@ import android.widget.TextView;
  */
 public class LoginFragment extends Fragment {
     public static final String CLAVE_USUARIO = "usuario";
-    private TextView username;
+
 
     public LoginFragment() {
         // Required empty public constructor
@@ -32,15 +32,19 @@ public class LoginFragment extends Fragment {
         // Inflate the layout for this fragment
         View vistaDelFragment = inflater.inflate(R.layout.fragment_login, container, false);
 
-        username = vistaDelFragment.findViewById(R.id.SegundaActivity_TextView_Username);
+        //
 
         Bundle bundle = getArguments();
         //agarrar la info del bundle
         String usuario = bundle.getString(CLAVE_USUARIO);
         //encontrar vista
-        FrameLayout frameLayout = vistaDelFragment.findViewById(R.id.FrameLayout_loginFragment);
+
+
+
+
+        TextView username = (TextView) vistaDelFragment.findViewById(R.id.SegundaActivity_TextView_Username);
         //modifico la vista
-        username.setText("Welcome: " + username + "!!!");
+        username.setText("Welcome "+usuario+"!!!");
 
         return vistaDelFragment;
     }

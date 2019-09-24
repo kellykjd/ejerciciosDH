@@ -35,6 +35,7 @@ public class FragmentColor extends Fragment {
         Integer color = bundle.getInt(CLAVE_COLOR);
         //encontrar vista
         FrameLayout frameLayout = vistaDelFragment.findViewById(R.id.FrameLayout_fragmentColor);
+
         //modifico la vista
         frameLayout.setBackgroundColor(color);
 
