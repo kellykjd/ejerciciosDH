@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         //guardo el valor del username
         String username = editTextUsername.getText().toString();
         String password = editTextPasw.getText().toString();
-        if(TextUtils.isEmpty(username) || TextUtils.isEmpty(password)){
+        if(username.isEmpty() || password.isEmpty()){
             Toast.makeText(this, "Los campos no pueden estar vacíos", Toast.LENGTH_SHORT).show();
         }else{
         // creo el intent a la nueva actividad (el pasaje)
