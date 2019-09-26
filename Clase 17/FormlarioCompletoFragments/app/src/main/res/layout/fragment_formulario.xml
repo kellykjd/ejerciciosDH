@@ -1,144 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/fragmentFormulario"
-    tools:context=".formularioFragment"
+    android:id="@+id/Fragment_formulario"
+    tools:context=".FormularioFragment"
     android:orientation="vertical"
     android:background="#B37BBE">
-
     <TextView
         android:id="@+id/fFormulario_textViewTitle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="Completar el formulario"
         android:gravity="center"
         android:textSize="30sp"
         android:fontFamily="sans-serif-black"
         android:textColor="#000"/>
-
-    <TextView
-        android:id="@+id/fFormulario_textViewNombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nombre: "
-        android:layout_below="@id/fFormulario_textViewTitle"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"/>
-
-    <TextView
-        android:id="@+id/fFormulario_textViewApellido"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Apellido: "
-        android:layout_below="@id/fFormulario_textViewNombre"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"/>
-
-    <TextView
-        android:id="@+id/fFormulario_textViewEdad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Edad: "
-        android:layout_below="@id/fFormulario_textViewApellido"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"/>
-
-    <TextView
-        android:id="@+id/fFormulario_textViewCarrera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Carrera: "
-        android:layout_below="@id/fFormulario_textViewEdad"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"/>
-
-    <TextView
-        android:id="@+id/fFormulario_textViewEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email: "
-        android:layout_below="@id/fFormulario_textViewCarrera"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"/>
-
-    <EditText
-        android:id="@+id/fFormulario_editViewNombre"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/fFormulario_textViewNombre"
-        android:layout_toRightOf="@id/fFormulario_textViewNombre"
-        android:textSize="30sp"/>
-
-    <EditText
-        android:id="@+id/fFormulario_editViewApellido"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/fFormulario_editViewNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/fFormulario_textViewApellido"
-        android:layout_toRightOf="@id/fFormulario_textViewApellido"
-        android:textSize="30sp"/>
-
-    <EditText
-        android:id="@+id/fFormulario_editViewEdad"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido: "
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/fFormulario_editViewApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/fFormulario_textViewEdad"
-        android:layout_toRightOf="@id/fFormulario_textViewEdad"
-        android:textSize="30sp"
-        android:inputType="number"/>
-
-    <EditText
-        android:id="@+id/fFormulario_editViewCarrera"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad: "
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/fFormulario_editViewEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/fFormulario_textViewCarrera"
-        android:layout_toRightOf="@id/fFormulario_textViewCarrera"
-        android:textSize="30sp"
-        android:inputType="number"/>
-
-    <EditText
-        android:id="@+id/fFormulario_editViewEmail"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrera: "
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/fFormulario_editViewCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/fFormulario_textViewEmail"
-        android:layout_toRightOf="@id/fFormulario_textViewEmail"
-        android:textSize="30sp"
-        android:inputType="number"/>
-
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/fFormulario_editViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+    </LinearLayout>
     <TextView
-        android:id="@+id/fFormulario_textViewInformativo"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fFormulario_editViewEmail"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="10dp"
         android:textSize="20sp"
         android:text="Deseo recibir mail informándome sobre los siguientes eventos:"        />
-    <CheckBox
-        android:id="@+id/fFormulario_checkBoxTorneos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fFormulario_textViewInformativo"
-        android:layout_centerInParent="true"/>
-    <TextView
-        android:id="@+id/fFormulario_textViewTorneos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Torneos"
-        android:layout_toRightOf="@id/fFormulario_checkBoxTorneos"
-        android:layout_alignBottom="@id/fFormulario_checkBoxTorneos"
-        />
 
-    <CheckBox
-        android:id="@+id/fFormulario_checkBoxMeetups"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp">
+        <CheckBox
+            android:id="@+id/fFormulario_checkBoxTorneos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Torneos"/>
+        <CheckBox
+            android:id="@+id/fFormulario_checkBoxMeetups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Meetups"/>
+        <CheckBox
+            android:id="@+id/fFormulario_checkBoxAsados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Asados"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/fFormulario_bttnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/fFormulario_textViewInformativo"/>
-
-    <CheckBox
-        android:id="@+id/fFormulario_checkBoxAsados"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fFormulario_textViewInformativo"/>
-
-</RelativeLayout>
+        android:text="ENVIAR"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="10dp"/>
+</LinearLayout>

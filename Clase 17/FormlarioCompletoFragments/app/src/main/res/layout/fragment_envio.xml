@@ -1,14 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".envioFragment">
+    android:id="@+id/Fragment_envio"
+    tools:context=".EnvioFragment"
+    android:orientation="vertical"
+    android:background="#FFF">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Envío Realizado Correctamente!"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"/>
 
-</FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Información enviada:"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:id="@+id/fEnvio_textView_nombreApellidoRecibido"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:id="@+id/fEnvio_textView_edadRecibida"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:id="@+id/fEnvio_textView_carreraRecibida"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:id="@+id/fEnvio_textView_emailRecibido"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Desea recibir información sobre:"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginHorizontal="10dp"/>
+    <TextView
+        android:id="@+id/fEnvio_textView_opcionesRecibidas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp"/>
+
+</LinearLayout>
