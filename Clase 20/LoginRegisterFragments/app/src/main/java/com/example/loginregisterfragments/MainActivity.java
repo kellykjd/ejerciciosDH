@@ -15,16 +15,16 @@ public class MainActivity extends AppCompatActivity implements FragmentFormulari
         setContentView(R.layout.activity_main);
 
         llamarFragmentFormulario();
-
     }
 
-    public void llamarFragmentFormulario(){
+    private void llamarFragmentFormulario(){
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentFormulario fragmentFormulario = new FragmentFormulario();
         FragmentTransaction fragmentTransaction =fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.contenedorDeFragmentsFormulario,fragmentFormulario);
         fragmentTransaction.commit();
     }
+
 
     @Override
     public void seLogueo(String usuario) {

@@ -1,35 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayoutSanta"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical"
-    tools:context="com.example.digitalhouse.floatbuttonbase.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/santa" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:id="@+id/santaFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="2dp"
-        android:text="Mensaje" />
+        <ImageView
+            android:id="@+id/ImageView_santa"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/santa"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:hint="Ingrese mensaje" />
+        <com.google.android.material.textfield.TextInputLayout
 
-    <Button
+            android:id="@+id/SantaFragment_TextView_mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="2dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SantaFragment_EditText_mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mensaje"
+                android:textSize="25sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SantaFragment_EditText_regalos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Regalos (opcional)"
+                android:textSize="25sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Enviar" />
+        android:src="@drawable/ic_email_black_24dp"
+        app:layout_anchor="@id/ImageView_santa"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_marginRight="20dp"/>
 
-</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
