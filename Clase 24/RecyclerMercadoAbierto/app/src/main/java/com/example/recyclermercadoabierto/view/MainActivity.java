@@ -33,6 +33,6 @@ public class MainActivity extends AppCompatActivity implements FragmentListaProd
         Bundle bundle = new Bundle();
         bundle.putSerializable(FragmentDetalleProducto.CLAVE_PRODUCTO,producto);
         fragmentDetalleProducto.setArguments(bundle);
-        pegarFragment(new FragmentDetalleProducto());
+        pegarFragment(fragmentDetalleProducto);
     }
 }

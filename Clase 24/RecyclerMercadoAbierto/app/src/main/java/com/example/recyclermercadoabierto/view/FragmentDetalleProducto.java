@@ -22,8 +22,8 @@ public class FragmentDetalleProducto extends Fragment {
     public static final String CLAVE_PRODUCTO = "claveProducto";
     private TextView textViewNombre;
     private TextView textViewDescripcion;
-  //  private TextView textViewPrecio;
-   // private ImageView imageViewProducto;
+    private TextView textViewPrecio;
+    private ImageView imageViewProducto;
 
 
     @Override
@@ -35,14 +35,14 @@ public class FragmentDetalleProducto extends Fragment {
 
             textViewNombre = view.findViewById(R.id.fragmentDetalleProducto_TextView_nombre);
             textViewDescripcion = view.findViewById(R.id.fragmentDetalleProducto_TextView_descripición);
-           // textViewPrecio = view.findViewById(R.id.fragmentDetalleProducto_TextView_precio);
-            //imageViewProducto = view.findViewById(R.id.fragmentDetalleProducto_ImageView_foto);
+            textViewPrecio = view.findViewById(R.id.fragmentDetalleProducto_TextView_precio);
+            imageViewProducto = view.findViewById(R.id.fragmentDetalleProducto_ImageView_foto);
             Bundle bundle = getArguments();
             Producto productoSeleccionado =(Producto) bundle.getSerializable(CLAVE_PRODUCTO);
-            //imageViewProducto.setImageResource(productoSeleccionado.getFoto());
+            imageViewProducto.setImageResource(productoSeleccionado.getFoto());
             textViewNombre.setText(productoSeleccionado.getNombre());
             textViewDescripcion.setText(productoSeleccionado.getDescripcion());
-            //textViewPrecio.setText(productoSeleccionado.getPrecio());
+            textViewPrecio.setText(productoSeleccionado.getPrecio());
             return view;
     }
 

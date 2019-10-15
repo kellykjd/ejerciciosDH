@@ -10,8 +10,23 @@ public class ProductoDao {
 
     public void traerProductos(ResultListener<List<Producto>> listenerDelController){
         List<Producto> productos= new ArrayList<>();
-        productos.add(new Producto("Gazebo","nuevo","$5.499",R.drawable.gazebo));
-		        /*productos.add(new Producto("Notebook Dell Inspiron I3","Display 14.0-inch HD (1366 x 768) Anti-Glare LED-Backlit Non-touch Display\n" +
+        productos.add(new Producto("Gazebo","GAZEBO PLEGABLE AUTOARMABLE MODELO REFORZADO UNIONES METALICAS - IMPERMEABLE\n" +
+                "Gazebo Autoarmable 3x3\n" +
+                "\n" +
+                "Características\n" +
+                "Modelo 3x3\n" +
+                "Largo 300 cm\n" +
+                "Ancho 300 cm\n" +
+                "Material de la tela: OXFORD POLYESTER 210D\n" +
+                "Recubrimiento de PVC (Evita el daño del tejido por radiacion solar UV e impermiabiliza la superficie)\n" +
+                "· Tubos estructurales exteriores: 30 mm x 30 mm x 0.6 mm de espesor\n" +
+                "· Tubos estructurales inferiores: 25 mm x 25 mm x 0.6 mm de espesor\n" +
+                "· Tubos estructurales transversales: 25 mm x 14 mm x 0.6 mm de espesor\n" +
+                "· Peso de la estructura sola: 12 kg\n" +
+                "· Peso completo: 15 kg\n" +
+                ". Laterales: opcionales (no incluidos)\n" +
+                "· Dimensiones de la caja: 147 cm x 19.5 cm x 19.5 cm","$5.499",R.drawable.gazebo));
+		        productos.add(new Producto("Notebook Dell Inspiron I3","Display 14.0-inch HD (1366 x 768) Anti-Glare LED-Backlit Non-touch Display\n" +
                 "Processor 7th Generation Intel® Core¿ i3-7020U Processor (3MB Cache, 2.30 GHz) [GI8D3ON]\n" +
                 "Primary Battery 42WHr, 3-Cell Battery (Integrated) [G728WKV]\n" +
                 "Memory 8GB (4Gx2) DDR4 (Expandible)\n" +
@@ -77,7 +92,7 @@ public class ProductoDao {
                 "Su display te permitirá ser más preciso al momento de seleccionar el tipo de comida, configurar el tiempo y la función para cocinar. A su vez, cuenta con un plato giratorio para cocinar o calentar los alimentos uniformemente en el menor tiempo posible. Además, presenta un excelente sistema de seguridad, con una traba especial, para cuidar a los más pequeños de la familia.\n" +
                 "\n" +
                 "Capacidad y eficiencia\n" +
-                "Con un volumen de 20 litros, podrás disfrutar comidas para compartir con amigos y familia. Ofrece una potencia máxima de 700 watts, que se puede regular en diferentes niveles según el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos más delicados como la pasta. Asimismo, este producto se destaca por su bajo consumo, que contribuye al ahorro energético del hogar. Con su fácil uso, podrás seleccionar y programar de manera práctica el tipo de comida que desees calentar para personalizar tus platos preferidos.","$7.699",R.drawable.microondas));*/
+                "Con un volumen de 20 litros, podrás disfrutar comidas para compartir con amigos y familia. Ofrece una potencia máxima de 700 watts, que se puede regular en diferentes niveles según el tipo de alimento, por ejemplo, para evitar que se resequen algunos platos más delicados como la pasta. Asimismo, este producto se destaca por su bajo consumo, que contribuye al ahorro energético del hogar. Con su fácil uso, podrás seleccionar y programar de manera práctica el tipo de comida que desees calentar para personalizar tus platos preferidos.","$7.699",R.drawable.microondas));
 
         listenerDelController.finish(productos);
     }
