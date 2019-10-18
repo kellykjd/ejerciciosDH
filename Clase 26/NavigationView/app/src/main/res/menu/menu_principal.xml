@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="perfil"
+        android:id="@+id/menuPrincipal_perfil"></item>
+    <item android:title="favoritos"
+        android:id="@+id/menuPrincipal_favoritos"></item>
+    <item android:title="settings"
+        android:id="@+id/menuPrincipal_settings"></item>
+    <item android:title="log out"
+        android:id="@+id/menuPrincipal_log_out"></item>
+
+
+</menu>
