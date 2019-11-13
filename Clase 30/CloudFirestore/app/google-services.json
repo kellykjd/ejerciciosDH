@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1006974853793",
+    "firebase_url": "https://firestorebelgranin.firebaseio.com",
+    "project_id": "firestorebelgranin",
+    "storage_bucket": "firestorebelgranin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006974853793:android:f8def1a29ea795f18e46e0",
+        "android_client_info": {
+          "package_name": "com.example.cloudfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006974853793-lkedbjtap7f0stg3ssgujf9hr8h57eq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbJpwAOFmd303bESVIUFi52pxaVfaCVtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006974853793-lkedbjtap7f0stg3ssgujf9hr8h57eq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
